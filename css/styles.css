@@ -1,0 +1,137 @@
+/* Definindo uma fonte personalizada chamada "BF Modernist" */
+@font-face {
+  font-family: "BF Modernist";
+  src: url(../fonts/bf-modernista-bold.ttf);
+}
+
+/* Estilizando o HTML globalmente */
+html {
+  font-family: "BF Modernist"; /* Definindo a fonte para todo o documento HTML */
+  background-color: #000000; /* Cor de fundo preta */
+  color: white; /* Cor do texto branca */
+}
+
+/* Removendo margens padrão do corpo do documento */
+body {
+  margin: 0;
+}
+
+/* Estilizando um container principal */
+.container {
+  max-width: 90vw; /* Largura máxima do container em relação à largura da viewport */
+  background-color: #161616; /* Cor de fundo do container */
+  position: relative;
+  margin: 5vh auto; /* Margens superior e inferior de 5 unidades de altura da viewport, centralizando verticalmente */
+  padding: 5vw 5vh; /* Preenchimento interno do container em unidades de largura e altura da viewport */
+}
+
+/* Estilos para texto em negrito */
+.bold {
+  font-weight: bold;
+  color: #26FFDF; /* Cor verde azulada para o texto em negrito */
+}
+
+/* Estilizando o cabeçalho */
+.header {
+  text-align: center; /* Centralizando o texto no cabeçalho */
+}
+
+/* Estilizando o título principal */
+.main-title {
+  font-size: 5vw; /* Tamanho do texto em relação à largura da viewport */
+}
+
+/* Estilizando parágrafos principais com itálico */
+.main-paragraph {
+  font-style: italic;
+}
+
+/* Estilizando uma imagem em destaque */
+.featured-image {
+  text-align: center; /* Centralizando o texto */
+  margin-top: 3vh; /* Margem superior de 3 unidades de altura da viewport */
+}
+.featured-image img {
+  width: 100%; /* Garantindo que a imagem ocupe toda a largura do contêiner */
+}
+
+/* Estilizando um container de biografia */
+.biography-container {
+  padding: 2.5vh 0; /* Preenchimento interno superior e inferior de 2.5 unidades de altura da viewport */
+  margin: 2.5vh 0; /* Margem superior e inferior de 2.5 unidades de altura da viewport */
+  border-top: 1px dashed #26FFDF; /* Borda superior tracejada com cor verde azulada */
+  border-bottom: 1px dashed #26FFDF; /* Borda inferior tracejada com cor verde azulada */
+}
+
+/* Estilizando um container de citações */
+.quotes-container {
+  background-color: #26FFDF; /* Cor de fundo azulada para o container de citações */
+  padding: 5vw; /* Preenchimento interno do container em unidades de largura da viewport */
+}
+.quotes-container blockquote {
+  font-weight: bold;
+  font-size: 4vw; /* Tamanho da fonte em relação à largura da viewport */
+  line-height: 1.5;
+}
+.quotes-container p {
+  font-style: italic;
+}
+
+/* Estilizando um container de curiosidades */
+.curiosities-container {
+  padding: 2.5vh 0; /* Preenchimento interno superior e inferior de 2.5 unidades de altura da viewport */
+  margin: 2.5vh 0; /* Margem superior e inferior de 2.5 unidades de altura da viewport */
+  border-top: 1px dashed #26FFDF; /* Borda superior tracejada com cor verde azulada */
+  border-bottom: 1px dashed #26FFDF; /* Borda inferior tracejada com cor verde azulada */
+}
+.curiosities-container li {
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Estilizando texto em negrito com imagem centralizada */
+.img-bold {
+  font-weight: bold;
+  text-align: center;
+}
+.img-bold img {
+  width: 100%; /* Garantindo que a imagem ocupe toda a largura do contêiner */
+}
+
+/* Estilizando links */
+a {
+  color: #26FFDF; /* Cor verde azulada para links não visitados */
+}
+
+a:visited {
+  color: #006959; /* Cor verde azulada mais escura para links visitados */
+}
+
+/* Adicionando unidades de viewport para p, h1, h2, span, figcaption e ul */
+p {
+  font-size: 2.5vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+h1 {
+  font-size: 8vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+h2 {
+  font-size: 6vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+span {
+  font-size: 3vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+figcaption {
+  font-size: 4vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+ul {
+  font-size: 2.5vw; /* Ajustando o tamanho da fonte conforme necessário */
+}
+
+figure,
+blockquote {
+  margin: 0%; /* Removendo margens para elementos figure */
+}
